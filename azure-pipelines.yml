@@ -19,7 +19,7 @@ steps:
   inputs:
     command: 'build'
     projects: 'src/Ardalis.SharedKernel/Ardalis.SharedKernel.csproj'
-    - task: DotNetCoreCLI@2
-      inputs:
+- task: DotNetCoreCLI@2
+  inputs:
         command: 'publish'
         publishWebProjects: true
